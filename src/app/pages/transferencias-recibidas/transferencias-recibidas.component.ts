@@ -7,5 +7,5 @@ import { transferenciasRecibidas } from 'src/app/datos/transferencias-ejemplo';
   styleUrls: ['./transferencias-recibidas.component.css'],
 })
 export class TransferenciasRecibidasComponent {
-  transferencias: any[] = transferenciasRecibidas;
+  transferenciasRecibidas: any[] = transferenciasRecibidas;
 }
