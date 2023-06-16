@@ -4,3 +4,23 @@
     list-style: none;
     padding-left: 0;
 }
+
+.active-menu {
+    background-color: darkviolet;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-menu:hover .submenu {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 12px;
+}

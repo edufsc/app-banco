@@ -16,3 +16,12 @@ export const clientes = [
     saldo: 100,
   },
 ];
+
+export const gestores = [
+  {
+    id: 1,
+    correo: 'gestor@correo.com',
+    password: 'unapass',
+    usuario: 'Juana',
+  },
+];
